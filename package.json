@@ -1,27 +1,25 @@
 {
-    "author": {
-        "name": "Sven, mailsvb@gmail.com"
-    },
-    "dependencies": {
-        "moment": "*",
-        "validator": "*"
-    },
-    "scripts": {
-        "postinstall": "node testssl/install-testssl.js"
-    },
-    "description": "node-red implementation of the testssl.sh script",
-    "name": "node-red-contrib-testssl",
-    "keywords": [ "node-red", "testssl", "vulnerability", "scan" ],
-    "license": "MIT",
-    "node-red": {
-        "nodes": {
-            "testssl": "testssl/testssl.js"
-        }
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/mailsvb/node-red-contrib-testssl.git"
-    },
-    "homepage": "https://github.com/mailsvb/node-red-contrib-testssl#readme",
-    "version": "1.8.1"
+  "author": {
+    "name": "Sven, mailsvb@gmail.com"
+  },
+  "scripts": {
+    "postinstall": "node install-testssl.js"
+  },
+  "description": "testssl.sh install script",
+  "name": "@nitra/testssl",
+  "keywords": [
+    "testssl",
+    "vulnerability",
+    "scan"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitaliytv/node-testssl.git"
+  },
+  "homepage": "https://github.com/vitaliytv/node-testssl#readme",
+  "version": "2.0.0",
+  "dependencies": {
+    "tar": "^6.0.1"
+  }
 }
